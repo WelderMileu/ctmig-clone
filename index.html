@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ctmig-clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.8.11/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<style>
+    .fun {
+        margin-top: 220px;
+        background-image: url("https://i0.wp.com/omsengenharia.com.br/wp-content/uploads/2019/06/power-1549122_1920.jpg?ssl=1");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+</style>
+
+<body>
+    <nav class="fixed z-50 inset-0 h-56 w-full shadow-lg bg-white">
+        <div class="bg-green-700 flex justify-end p-3 pr-10">
+            <div class="flex justify-center items-center text-gray-200">
+                <i class="fa fa-phone mr-2"></i>
+                <p class="font-bold">(31) 00000-0000</p>
+            </div>
+        </div>
+
+        <div class="flex justify-between items-center bg-white p-10">
+            <div>
+                <img class="w-24 sm:w-36" src="https://static.wixstatic.com/media/6e9d2e_ad350a0b08c74b2085b74ac4188b9790~mv2.jpg/v1/fill/w_188,h_74,al_c,q_80,usm_0.66_1.00_0.01/6e9d2e_ad350a0b08c74b2085b74ac4188b9790~mv2.webp" alt="logo">
+            </div>
+            <ul class="hidden sm:flex flex-row w-3/6 justify-around">
+                <li class="uppercase font-semibold"><a href="#">grupo ctmig</a></li>
+                <li class="uppercase font-semibold"><a href="#">missão visão, valor</a></li>
+                <li class="uppercase font-semibold"><a href="#">produtos</a></li>
+                <li class="uppercase font-semibold"><a href="#">laudos</a></li>
+                <li class="uppercase font-semibold"><a href="#">contato</a></li>
+            </ul>
+            <div>
+                <img class="w-24 sm:w-36" src="https://static.wixstatic.com/media/6e9d2e_c9c40a69b3a0481e8591109ef4e1f00e~mv2.png/v1/fill/w_128,h_91,al_c,q_85,usm_0.66_1.00_0.01/6e9d2e_c9c40a69b3a0481e8591109ef4e1f00e~mv2.webp" alt="crea">
+            </div>
+        </div>
+    </nav>
+
+    <section class="flex flex-col justify-center items-center h-screen fun">
+        <div class="mb-32">
+            <img src="https://static.wixstatic.com/media/6e9d2e_f68ef346556248e3a5895bf5a0b36a5c~mv2.png/v1/crop/x_0,y_72,w_450,h_306/fill/w_390,h_265,al_c,q_85,usm_0.66_1.00_0.01/6e9d2e_f68ef346556248e3a5895bf5a0b36a5c~mv2.webp"
+                alt="">
+        </div>
+        <div class="flex flex-col sm:flex-row justify-around w-5/6 p-4">
+            <button class="p-5 w-56 bg-gray-700 rounded text-2xl opacity-75 hover:opacity-100 text-white">
+                Comercio
+            </button>
+            <button class="p-5 w-56 bg-orange-700 rounded text-2xl opacity-75 hover:opacity-100 text-white">
+                Importação
+            </button>
+            <button class="p-5 w-56 bg-orange-900 rounded text-2xl opacity-75 hover:opacity-100 text-white">
+                Industrialização
+            </button>
+            <button class="p-5 w-56 bg-yellow-600 rounded text-2xl opacity-75 hover:opacity-100 text-white">
+                Serviços
+            </button>
+        </div>
+    </section>
+
+    <section class="flex flex-col sm:flex-row justify-around items-center my-64">
+        <div class="mt-0 sm:mt-0 text-6xl flex flex-col justify-center items-center">
+            <div class="border-b-2 border-green-600 w-4/6 flex justify-center items-center text-green-300 py-20 h-24 w-24">
+                <i class="fa fa-leaf"></i>
+            </div>
+            <p class="text-lg sm:text-2xl text-green-500 uppercase mt-10">
+                Sobre o grupo CTMIG
+            </p>
+
+            <button
+                class="rounded bg-green-700 text-white font-bold uppercase text-lg p-3 px-10 mt-10 sm:mt-20 hover:bg-green-500">
+                saiba mais
+            </button>
+        </div>
+
+        <div class="mt-20 sm:mt-0 text-6xl flex flex-col justify-center items-center">
+            <div class="border-b-2 border-green-600 w-4/6 flex justify-center items-center text-green-300 py-20 h-24 w-24">
+                <i class="fa fa-gears"></i>
+            </div>
+            <p class="text-2xl text-green-500 uppercase mt-10">
+                produtos
+            </p>
+
+            <button
+                class="rounded bg-green-700 text-white font-bold uppercase text-lg p-3 px-10 mt-20 hover:bg-green-500">
+                saiba mais
+            </button>
+        </div>
+
+        <div class="mt-20 sm:mt-0 text-6xl flex flex-col justify-center items-center">
+            <div class="border-b-2 border-green-600 w-4/6 flex justify-center items-center text-green-300 py-20 h-24 w-24">
+                <i class="fa fa-refresh"></i>
+            </div>
+            <p class="text-2xl text-green-500 uppercase mt-10">
+                Serviços e manutenção
+            </p>
+
+            <button
+                class="rounded bg-green-700 text-white font-bold uppercase text-lg p-3 px-10 mt-20 hover:bg-green-500">
+                saiba mais
+            </button>
+        </div>
+    </section>
+
+    <footer class="bg-green-700">
+        <div class="flex justify-around py-20 p-5">
+            <div>
+                <div class="w-5/6 sm:w-6/6 flex text-2xl text-white p-2">
+                    <i class="fa fa-map"></i>
+                    <p class="text-lg ml-3">
+                        Rua Orozimbo Moreira, 160, Bairro Inconfidentes, Contagem | MG
+                    </p>
+                </div>
+
+                <div class="flex text-2xl text-white p-2">
+                    <i class="fa fa-phone"></i>
+                    <p class="text-lg ml-3">
+                        (31) 00000-0000
+                    </p>
+                </div>
+
+                <div class="flex text-2xl text-white p-2">
+                    <i class="fa fa-envelope"></i>
+                    <p class="text-lg ml-3">
+                        email@email.com
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <img src="https://static.wixstatic.com/media/6e9d2e_5ea5ffc37dca472f9e0256f51950a9ce~mv2.png/v1/crop/x_72,y_89,w_306,h_271/fill/w_106,h_94,al_c,q_85,usm_0.66_1.00_0.01/icones-5-%5BConverted%5D.webp"
+                    alt="">
+            </div>
+        </div>
+
+        <div class="p-5 bg-green-900 flex justify-center items-center">
+            <img src="https://static.wixstatic.com/media/6e9d2e_1347a7c1ff83488bb90a74e735148f89~mv2.png/v1/fill/w_135,h_45,al_c,q_85,usm_0.66_1.00_0.01/6e9d2e_1347a7c1ff83488bb90a74e735148f89~mv2.webp" alt="">
+        </div>
+    </footer>
+</body>
+
+</html>
